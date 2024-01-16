@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Dancing+Script:wght@500&family=Moon+Dance&family=Noto+Sans+JP:wght@700&family=Oswald:wght@200&family=Rubik+Iso&display=swap');
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    top: 0;
+    color:black;
+
+}
+nav ul{
+    display: flex;
+   }
+   nav ul li{
+    display: flex;
+    margin: 18px;
+    font-weight: 500;
+    color: white;
+
+   }
+
+   h1{
+    text-align: center;
+    background-color: rgb(247, 47, 57);
+    height: 60;
+    margin: 0;
+    color: aliceblue;
+    
+   }
+   nav ul li :hover{
+    color: rgba(0, 0, 0, 0.147);
+    text-shadow: 1px 1px 1px 2px  ;
+   }
+   video{
+    width: 100%;
+    background-repeat: repeat;
+  
+
+   }
+   .items{
+    display: flex;
+
+   }
+
+   a{
+    text-decoration: none;
+    color: black;
+   }
+   
+   
+
+   
+   .row1{
+    display: flex;
+    
+    
+   }
+.col1
+{
+    width: 420px;
+    height: 350px;
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    
+
+
+}
+img{
+    width: 400px;
+    border-radius: 75px;
+    
+}
+.row2
+{
+    display: flex;
+}
+.col2{
+    width: 420px;
+    height: 350px;
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+
+
+
+    
+}
+.row3{
+    display: flex;
+}
+
+.col-3{
+    width: 420px;
+    height: 350px;
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+.footer{
+    background-color:white;
+    padding: 75px;
+    text-align: center;
+    color: white;
+
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+button{
+     
+     width: 100px;
+     height: 30px;
+    
+    font: bold;
+}
+@media screen and (max-width:400px)
+
+{
+   * {
+    background-color: brown;
+
+
+    }
+    body h1 {
+        width: 100%;
+
+    }
+    nav {
+        width: 100%;
+        background-color: azure;
+        align-items: center;
+        display: flex;
+        margin:0px ;
+
+    }
+    nav ul li {
+        display: flex;
+        align-items: center;
+        margin: 9px;
+        height: 50px;
+    
+       
+        
+
+    }
+    nav ul li a{
+        color: black;
+        align-items: center;
+        display: flex;
+        
+    }
+    .row1{
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .row2{
+        flex-direction: column;
+    }
+    video{
+        width: 100%;
+    }
+    .col1{
+        width: 90%;
+
+    }
+    img{
+        width: 300px;
+    }
+    .col2{
+        width: 90%;
+    }
+
+    
+
+}
+   
+   
